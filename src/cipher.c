@@ -19,7 +19,7 @@ int main(void) {
 	char fileName[100+1];
 	int operationChoice;
 
-    printf ("Insert the absolute path to the text file (with extension) which content you want to modify:");
+    printf("Insert the absolute path to the text file (with extension) which content you want to modify:");
     scanf("%[^\n]", fileName);
 
 	// Operations
