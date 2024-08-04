@@ -1,18 +1,18 @@
 /*
- * functions.c
+ *  functions.c
  *
  *  Created on: 19. stu 2023.
- *      Author: kar1o
+ *  Author: kar1o
  */
 #include <stdio.h>
 #include <string.h>
-#include "functions.h"
+#include "../include/functions.h"
 
 int encode(char *fileName) {
 
     char character, text[50000+1];
     int index;
-
+    
     // read
     FILE* inputFileRead = fopen(fileName, "r");
     if (inputFileRead == NULL) {

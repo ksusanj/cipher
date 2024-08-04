@@ -1,8 +1,8 @@
 /*
- * functions.h
+ *  functions.h
  *
  *  Created on: 19. stu 2023.
- *      Author: kar1o
+ *  Author: kar1o
  */
 
 #ifndef FUNCTIONS_H

@@ -11,8 +11,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "functions.h"
-
+#include "../include/functions.h"
 
 int main(void) {
 
@@ -28,7 +27,7 @@ int main(void) {
 	printf("\n1. Encode text file %s", fileName);
 	printf("\n2. Decode text file %s", fileName);
 	printf("\n3. Exit");
-
+	
 	scanf("%d", &operationChoice);
 
 	switch (operationChoice) {
