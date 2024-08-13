@@ -3,8 +3,8 @@
  Name        : cipher.c
  Author      : kar1o
  Version     : 1.0
- Copyright   : © 2023
- Description : Simple cipher program written in C
+ Copyright   : © 2024
+ Description : Simple program written in C
  ============================================================================
  */
 
