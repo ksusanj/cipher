@@ -25,7 +25,7 @@ int encode(char *fileName) {
     }
     text[index] = '\0';
 
-    if(fclose(inputFileRead) == EOF) {
+    if (fclose(inputFileRead) == EOF) {
     	return -1;
     }
 
@@ -46,7 +46,7 @@ int encode(char *fileName) {
         fputc(text[index++], inputFileWrite);
     }
 
-    if(fclose(inputFileWrite) == EOF) {
+    if (fclose(inputFileWrite) == EOF) {
     	return -1;
     }
 
@@ -70,7 +70,7 @@ int decode(char *fileName) {
     }
     text[index] = '\0';
 
-    if(fclose(inputFileRead) == EOF) {
+    if (fclose(inputFileRead) == EOF) {
     	return -1;
     }
 
@@ -91,7 +91,7 @@ int decode(char *fileName) {
         fputc(text[index++], inputFileWrite);
     }
 
-    if(fclose(inputFileWrite) == EOF) {
+    if (fclose(inputFileWrite) == EOF) {
     	return -1;
     }
 
